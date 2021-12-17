@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+ul > li{
+    border: 1px solid #141414;
+    padding: 5px 10px;
+}
+.listGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

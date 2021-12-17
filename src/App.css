@@ -1,0 +1,30 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.btnGroup{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+hr{
+  height: 20px;
+  border-color: #141414;
+  background-color: #141414;
+}
+.btnGroup button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.buttonActive{
+  font-weight: bold;
+  color: white;
+  background-color: #242323;
+}
